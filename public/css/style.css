@@ -1,0 +1,48 @@
+* {
+    margin: 2px;
+}
+
+
+/* .flex-main {
+    display: flex;
+    flex-direction: column;
+} */
+
+.flex-container {
+    font-size: 30px;
+    color: rgb(230, 54, 54);
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-nav {
+    background-color: teal;
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+
+.flex-article {
+    background-color: wheat;
+    padding-top: 3rem;
+    flex: 3 3 5rem;
+}
+
+.flex-aside {
+    background-color: teal;
+    padding-top: 3rem;
+    flex: 1 1 rem;
+}
+
+.flex-footer {
+    background-color: tomato;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+@media all and (max-width: 540px) {
+    .flex-main {
+        flex-direction: column;
+    }
+}
